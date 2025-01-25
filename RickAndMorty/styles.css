@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+  }
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .details-btn {
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+  }
+  .details-btn:hover {
+    background-color: #0056b3;
+  }
